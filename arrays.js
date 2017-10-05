@@ -8,7 +8,7 @@ console.log(chocolateBars);
 chocolateBars=addElementToEndOfArray(chocolateBars, "two");
 chocolateBars=destructivelyAddElementToEndOfArray(chocolateBars, "two");
 accessElementInArray(chocolateBars, 2);
-destructivelyRemoveElementFromEndOfArray();
+chocolateBars=destructivelyRemoveElementFromEndOfArray();
 //destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
 
 function addElementToBeginningOfArray(array, element){
@@ -35,5 +35,6 @@ function destructivelyRemoveElementFromEndOfArray(){
   return array.pop();
 }
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  return array.shift();
+  array.shift()
+  return array;
 }
