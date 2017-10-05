@@ -9,7 +9,9 @@ chocolateBars=addElementToEndOfArray(chocolateBars, "two");
 chocolateBars=destructivelyAddElementToEndOfArray(chocolateBars, "two");
 var holder=accessElementInArray(chocolateBars, 2);
 chocolateBars=destructivelyRemoveElementFromEndOfArray(chocolateBars);
-//destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
+chocolateBars=destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
+chocolateBars=removeElementFromBeginningOfArray(chocolateBars);
+chocolateBars=removeElementFromEndOfArray(chocolateBars);
 
 function addElementToBeginningOfArray(array, element){
   array = [element,...array];
