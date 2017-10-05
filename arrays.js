@@ -8,8 +8,8 @@ console.log(chocolateBars);
 chocolateBars=addElementToEndOfArray(chocolateBars, "two");
 chocolateBars=destructivelyAddElementToEndOfArray(chocolateBars, "two");
 accessElementInArray(chocolateBars, 2);
-destructivelyRemoveElementFromEndOfArray();
-destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
+//destructivelyRemoveElementFromEndOfArray();
+//destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
 
 function addElementToBeginningOfArray(array, element){
   array = [element,...array];
