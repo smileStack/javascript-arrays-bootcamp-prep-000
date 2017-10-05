@@ -7,7 +7,7 @@ console.log(chocolateBars);
 
 chocolateBars=addElementToEndOfArray(chocolateBars, "two");
 chocolateBars=destructivelyAddElementToEndOfArray(chocolateBars, "two");
-accessElementInArray(chocolateBars, 2);
+var holder=accessElementInArray(chocolateBars, 2);
 chocolateBars=destructivelyRemoveElementFromEndOfArray(chocolateBars);
 //destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
 
