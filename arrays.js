@@ -6,6 +6,7 @@ chocolateBars =destructivelyAddElementToBeginningOfArray(chocolateBars, "two")
 console.log(chocolateBars);
 
 chocolateBars=addElementToEndOfArray(chocolateBars, "two");
+chocolateBars=destructivelyAddElementToEndOfArray(chocolateBars, "two");
 
 function addElementToBeginningOfArray(array, element){
   array = [element,...array];
@@ -19,6 +20,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 function addElementToEndOfArray(array, element){
   return array.push(element);
 }
-function addElementToEndOfArray(array, element){
+
+function destructivelyAddElementToEndOfArray(array, element){
   return array.push(element);
 }
