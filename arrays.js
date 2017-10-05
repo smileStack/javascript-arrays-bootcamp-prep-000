@@ -42,7 +42,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   return array;
 }
 function removeElementFromBeginningOfArray(array){
-array.slice();
+array.slice(0);
 return array;
 }
 
