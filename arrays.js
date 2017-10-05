@@ -31,7 +31,7 @@ function destructivelyAddElementToEndOfArray(array, element){
 function accessElementInArray(array, index){
   return array[index];
 }
-function destructivelyRemoveElementFromEndOfArray(){
+function destructivelyRemoveElementFromEndOfArray(array){
   array.pop();
   return array;
 }
