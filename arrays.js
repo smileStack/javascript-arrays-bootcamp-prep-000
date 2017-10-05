@@ -6,11 +6,11 @@ destructivelyAddElementToBeginningOfArray(chocolateBars, "two")
 console.log(chocolateBars);
 
 function addElementToBeginningOfArray(array, element){
-  array.unshift(element);
+  array = [element,...array];
   console.log(array);
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-  array[0]=element;
+  array.unshift(element);
   console.log(array);
 }
